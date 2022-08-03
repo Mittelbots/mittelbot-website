@@ -5,7 +5,8 @@
   "main": "server/server.js",
   "scripts": {
     "dev": "nodemon server/server.js",
-    "prod": "pm2 start server/server.js --name mittelbot-website"
+    "prod": "pm2 start server/server.js --name mittelbot-website",
+    "restart": "pm2 restart mittelbot-website"
   },
   "repository": {
     "type": "git",
