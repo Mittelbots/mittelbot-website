@@ -1,5 +1,9 @@
 # Mido Website
 
-## Just the website for mido
+## Just the website for Mittelbot
 
-#### Credits goes to JstnLT
+<strong>
+The original repository of Mittelbot won't be public in any time!
+</strong>
+
+#### Design from JstnLT

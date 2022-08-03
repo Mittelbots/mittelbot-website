@@ -5,4 +5,5 @@ module.exports = (app) => {
     //NO UI ROUTES
     require('./noui/invite-route.js')(app);
     require('./noui/support-route.js')(app);
+    require('./noui/changelog-route.js')(app);
 }
