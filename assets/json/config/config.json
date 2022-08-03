@@ -12,7 +12,8 @@
     "routing": {
         "homepage": "/",
         "support": "/support",
-        "invite": "/invite"
+        "invite": "/invite",
+        "changelog": "/changelog"
     },
     "external_links": {
         "support": "https://discord.gg/5d5ZDFQM4E",
