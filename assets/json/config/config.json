@@ -17,6 +17,7 @@
     },
     "external_links": {
         "support": "https://discord.gg/5d5ZDFQM4E",
-        "invite": "https://discord.com/api/oauth2/authorize?client_id=918951367110971452&permissions=8&scope=bot%20applications.commands"
+        "invite": "https://discord.com/api/oauth2/authorize?client_id=918951367110971452&permissions=8&scope=bot%20applications.commands",
+        "changelog": "https://github.com/Mittelbots/Mittelbot-Issues-and-Requests/blob/d236d443dcad8b473cc49743f4f03fc28fb1d417/CHANGELOG.md"
     }
 }
