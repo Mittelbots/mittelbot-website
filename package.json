@@ -4,10 +4,9 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start": "docker compose up -d",
-    "stop": "docker compose down",
-    "restart": "npm run stop && npm run start",
-    "log":  "docker logs -f mittelbot-website"
+    "dev": "nodemon server/server.js",
+    "prod": "pm2 start server/server.js --name mittelbot-website",
+    "restart": "pm2 restart mittelbot-website"
   },
   "repository": {
     "type": "git",
