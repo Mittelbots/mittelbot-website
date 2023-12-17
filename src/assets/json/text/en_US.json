@@ -1,0 +1,8 @@
+{
+    "name": "Mittelbot",
+    "navigation": {
+        "home": "Home",
+        "features": "Features",
+        "docs": "Documentation"
+    }
+}
