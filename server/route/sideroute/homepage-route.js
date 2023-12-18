@@ -7,4 +7,4 @@ module.exports = (app) => {
             support: nconf.get('routing:support'),
         });
     });
-}
+};

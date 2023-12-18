@@ -1,0 +1,19 @@
+$primary: #1a2533;
+$secondary: #485fc7;
+$link-hover-color: #ffffffc4;
+
+:root {
+  --bs-primary: $primary;
+  --bs-primary-rgb: 26, 37, 51;
+  --bs-secondary: $secondary;
+}
+
+a {
+  color: $white !important;
+  text-decoration: none !important;
+
+  &:hover {
+    color: $secondary !important;
+    text-decoration: none !important;
+  }
+}
