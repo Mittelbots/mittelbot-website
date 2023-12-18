@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-primary py-3">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><strong>{{ lang.name }}</strong></a>
+            <a class="navbar-brand fw-bold" href="#">{{ lang.name }}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -10,10 +10,10 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">{{ lang.navigation.home }}</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item fw-normal">
                         <a class="nav-link" href="#">{{ lang.navigation.features }}</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item fw-normal">
                         <a class="nav-link" href="#">{{ lang.navigation.docs }}</a>
                     </li>
                 </ul>

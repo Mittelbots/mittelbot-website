@@ -3,23 +3,6 @@
 @import url('./assets/nav.css');
 @import url('./assets/custom.css');
 
-* {
-  font-family: "Poppins", sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-.blurple {
-  color: #7289da;
-}
-
-.bg-base {
-  background-color: #1a2634 !important;
-}
-
 .footer {
   background-image: url('../img/cat.svg');
   background-position: 90%;

@@ -1,5 +1,6 @@
 <template>
     <NavComponent />
+    <FitfiftyComponent />
 </template>
 
 <script lang="ts">

@@ -1,11 +1,12 @@
 $primary: #1a2533;
 $secondary: #485fc7;
-$link-hover-color: #ffffffc4;
+$white: #ffffff;
 
 :root {
   --bs-primary: $primary;
   --bs-primary-rgb: 26, 37, 51;
   --bs-secondary: $secondary;
+  --bs-body-color: $white !important;
 }
 
 a {
