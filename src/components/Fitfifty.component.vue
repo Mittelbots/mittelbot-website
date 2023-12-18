@@ -1,47 +1,39 @@
 <template>
-    <div class="columns">
-        <div class="column mr-6 mt-12">
-            <p class="title text-white has-text-weight-bold">
-                Mittelbot <br /><br />
+    <div class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0">
+        <div class="col-12 col-lg-6 p-4 text-white">
+            <h1 class="fw-bold display-3">
                 Get your server on the next level.
-            </p>
+            </h1>
             <p class="subtitle has-text-grey-light is-size-6 mt-3">
                 Create Projects and Tasks. Be prepared for deadlines with reminders and protect your
                 server tasks from evils with curtain permissions
                 Set-up Moderation, Leveling, welcome message or logs with an easy command struture.
             </p>
-            <ul class="content has-text-white">
+            <ul class="list-unstyled">
                 <li>
-                    <img src="" alt="check" />
+                    <img src="~/assets/img/icons/check.svg" alt="check" width="20" />
                     Moderation
                 </li>
                 <li>
-                    <img src="" alt="check" />
+                    <img src="~/assets/img/icons/check.svg" alt="check" width="20" />
                     Scamdetection
                 </li>
                 <li>
-                    <img src="" alt="check" />
+                    <img src="~/assets/img/icons/check.svg" alt="check" width="20" />
                     Welcome message
                 </li>
                 <li>
-                    <img src="" alt="check" />
+                    <img src="~/assets/img/icons/check.svg" alt="check" width="20" />
                     Leveling
                 </li>
             </ul>
             <div class="buttons">
-                <a href="<%= invite %>" class="button is-info" target="_blank" rel="no-referrer noopener">
-                    <strong>Add To Discord</strong>
-                </a>
-
-                <!-- <a href="#" class="button is-primary is-outlined">
-                  <strong><i class="fa-solid fa-crown"></i> Premium</strong>
-                </a> -->
+                <a href="#" class="btn btn-primary" target="_blank" rel="no-referrer noopener fw-bold">Add To Discord</a>
             </div>
         </div>
 
-        <div class="column mt-6" data-aos="fade-up">
-            <img class="image has-image-centered vert-move mt-4" src="" alt="hero image"
-                style="width: 180rem !important;" />
+        <div class="col-12 col-lg-6 p-4">
+            <img class="w-75" src="~/assets/img/schedule-planning.svg" alt="hero image" />
         </div>
     </div>
 </template>
