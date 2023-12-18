@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: false },
   srcDir: 'src',
-  css: ['~/assets/scss/base.scss'],
+  css: [
+    '~/assets/scss/base.scss',
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
   app: {
     head: {
       charset: 'utf-8',
@@ -12,6 +15,7 @@ export default defineNuxtConfig({
   },
   plugins: [
     '~/plugins/bootstrap.client.ts',
+    '~/plugins/fontawesome.ts',
   ],
   extensions: ['ts', 'js'],
   components: [
@@ -19,5 +23,5 @@ export default defineNuxtConfig({
       path: '~/components',
       pathPrefix: false,
     },
-  ]
+  ],
 })

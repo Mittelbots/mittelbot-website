@@ -1,5 +1,8 @@
 {
     "name": "Mittelbot",
+    "links": {
+        "support": "/support"
+    },
     "navigation": {
         "home": "Home",
         "features": "Features",
