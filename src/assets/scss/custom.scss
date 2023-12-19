@@ -1,0 +1,14 @@
+.lined {
+    border-top: 5px;
+    border-top-style: solid;
+    border-top-color: $purple;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    opacity: 1;
+}
+
+.purple {
+    color: $purple;
+}

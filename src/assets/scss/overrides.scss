@@ -1,12 +1,18 @@
 $primary: #1a2533;
 $secondary: #485fc7;
+$black: #363636;
 $white: #fff;
+$purple: #7289da;
 
 :root {
   --bs-primary: $primary;
   --bs-primary-rgb: 26, 37, 51;
   --bs-secondary: $secondary;
+  --bs-secondary-rgb: 72, 95, 199;
   --bs-body-color: $white !important;
+  --bs-white: $white;
+  --bs-black: $black;
+  --bs-heading-color: $black !important;
 }
 
 a {
