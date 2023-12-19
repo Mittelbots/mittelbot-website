@@ -3,6 +3,7 @@
          <ImageAtom
             :image="image"
             :imageAlt="imageAlt"
+            data-aos="fade-up"
         />
         <TextAtom
             :headline="headline"
@@ -12,6 +13,7 @@
             :keyFacts="keyFacts"
             :button="button"
             :textBlack="textBlack"
+            data-aos="fade-up"
          />
     </div>
     <div class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5" v-else :style="{height: style.height}">
@@ -23,10 +25,12 @@
             :keyFacts="keyFacts"
             :button="button"
             :textBlack="textBlack"
+            data-aos="fade-up"
         />
         <ImageAtom
             :image="image"
             :imageAlt="imageAlt"
+            data-aos="fade-up"
         />
     </div>
 </template>

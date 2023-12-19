@@ -71,6 +71,6 @@ export default {
             elements: lang.content.fifthyfifthy,
             lang
         }
-    }
+    },
 };
 </script>

@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   srcDir: 'src',
   css: [
     '~/assets/scss/base.scss',
-    '@fortawesome/fontawesome-svg-core/styles.css'
+    '@fortawesome/fontawesome-svg-core/styles.css',
   ],
   app: {
     head: {
@@ -16,6 +16,7 @@ export default defineNuxtConfig({
   plugins: [
     '~/plugins/bootstrap.client.ts',
     '~/plugins/fontawesome.ts',
+    { src: '@/plugins/aos', mode: 'client' }
   ],
   extensions: ['ts', 'js'],
   components: [
