@@ -13,7 +13,7 @@
         :textBlack="elements.first.textBlack"
         :style="elements.first.style"
     />
-    <img src="/img/elements/waves.svg" alt="line" class="line" style="margin-top: -60px;"/>
+    <img src="/img/elements/waves.svg" alt="line" class="waves line"/>
 
     <h2 class="text-center my-3 fw-bolder" id="features">{{ lang.content.homepageHeadline }}</h2>
     <hr class="lined" style="height: 2px;"/>
