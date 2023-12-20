@@ -13,6 +13,7 @@
             :keyFacts="keyFacts"
             :button="button"
             :textBlack="textBlack"
+            :style="style"
             data-aos="fade-up"
          />
     </div>
@@ -25,6 +26,7 @@
             :keyFacts="keyFacts"
             :button="button"
             :textBlack="textBlack"
+            :style="style"
             data-aos="fade-up"
         />
         <ImageAtom

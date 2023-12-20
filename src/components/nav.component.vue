@@ -11,14 +11,14 @@
                         <a class="nav-link active" aria-current="page" href="#">{{ lang.navigation.home }}</a>
                     </li>
                     <li class="nav-item fw-normal">
-                        <a class="nav-link" href="#">{{ lang.navigation.features }}</a>
+                        <a class="nav-link" href="#features">{{ lang.navigation.features }}</a>
                     </li>
                     <li class="nav-item fw-normal">
-                        <a class="nav-link" href="#">{{ lang.navigation.docs }}</a>
+                        <a class="nav-link disabled not-allowed" tabindex="-1" href="#" aria-disabled="true">{{ lang.navigation.docs }}</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <a :href="lang.links.support" class="navbar-item is-tab" target="_blank">
+                    <a :href="links.support.path" class="navbar-item is-tab" target="_blank">
                         <fa :icon="faDiscord"/>
                     </a>
                 </span>
@@ -29,12 +29,14 @@
 
 <script lang="ts">
 import * as lang from '~/assets/json/text/en_US.json';
+import * as links from '~/assets/json/links.json';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 export default {
     name: 'NavComponent',
     data() {
         return {
             lang,
+            links,
             faDiscord,
         };
     },

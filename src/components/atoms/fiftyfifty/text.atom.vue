@@ -9,7 +9,7 @@
                 </li>
             </ul>
             <div class="buttons">
-                <a :href="button.link" class="btn btn-primary" target="_blank" rel="no-referrer noopener fw-bold">
+                <a :href="button.link" class="btn" :class="style.buttonStyle" target="_blank" rel="no-referrer noopener fw-bold">
                     {{ button.text }}
                 </a>
             </div>
@@ -26,7 +26,8 @@ export default {
         imageAlt: String,
         keyFacts: Array,
         button: Object,
-        textBlack: Boolean
+        textBlack: Boolean,
+        style: Object,
     }
 }
 </script>

@@ -15,7 +15,7 @@
     />
     <img src="/img/elements/waves.svg" alt="line" class="line" style="margin-top: -60px;"/>
 
-    <h2 class="text-center my-3 fw-bolder">{{ lang.content.homepageHeadline }}</h2>
+    <h2 class="text-center my-3 fw-bolder" id="features">{{ lang.content.homepageHeadline }}</h2>
     <hr class="lined" style="height: 2px;"/>
 
     <FitfiftyComponent
@@ -54,9 +54,9 @@
         :style="elements.fourth.style"
     />
 
-    <div class="d-flex justify-content-center align-items-center flex-column" style="height: 20vh;">
+    <div class="d-flex justify-content-center align-items-center flex-column my-5" style="height: 20vh;">
         <h2 class="fw-bolder">{{ lang.content.readyText }}</h2>
-        <button class="btn btn-primary">{{lang.content.readyButton}}</button>
+        <a class="btn btn-success my-3" :href="links.invite.path">{{lang.content.readyButton}}</a>
     </div>
 
     <FooterComponent />
@@ -64,12 +64,14 @@
 
 <script lang="ts">
 import * as lang from '~/assets/json/text/en_US.json';
+import * as links from '~/assets/json/links.json';
 export default {
     name: 'Homepage',
     data() {
         return {
             elements: lang.content.fifthyfifthy,
-            lang
+            lang,
+            links,
         }
     },
 };
