@@ -17,7 +17,6 @@
     "code:format": "npm run code:prettier && npm run code:eslint -- --fix && npm run scss:lint -- --fix",
     "scss:lint": "stylelint src/assets/scss --config .tools/stylelint/stylelintrc.json",
     "start:dev": "docker compose up -d && npm run logs",
-    "start:prod": "pm2 start",
     "restart": "npm run stop && npm run start:dev",
     "logs": "docker compose logs -f",
     "stop": "docker compose down"
