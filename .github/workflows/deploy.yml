@@ -3,12 +3,19 @@ name: Website Deployment
 on:
   release:
     types: [published]
+  push:
+    branches: [master]
 
 jobs:
   deploy:
     runs-on: mittelbots
 
     steps:
+      - name: Node.js 20.04
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
