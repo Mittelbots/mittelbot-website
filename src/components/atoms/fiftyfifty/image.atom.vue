@@ -9,7 +9,7 @@ export default {
     name: 'ImageAtom',
     props: {
         image: String,
-        imageAlt: String
-    }
-}
+        imageAlt: String,
+    },
+};
 </script>

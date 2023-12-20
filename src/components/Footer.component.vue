@@ -2,14 +2,14 @@
     <div class="bg-primary p-5 d-flex justify-content-center align-items-center flex-column mt-5">
         <div class="d-flex">
             <a :href="links.support.path" class="navbar-item is-tab me-3" target="_blank">
-                <fa :icon="faDiscord"/>
+                <fa :icon="faDiscord" />
             </a>
             <a :href="links.github.path" class="navbar-item is-tab" target="_blank">
-                <fa :icon="faGithub"/>
+                <fa :icon="faGithub" />
             </a>
         </div>
         <h4 class="text-white fw-bolder mt-2">{{ lang.name }}</h4>
-        <p class="text-white">© {{year}} {{ lang.footer.copyrightHint }}</p>
+        <p class="text-white">© {{ year }} {{ lang.footer.copyrightHint }}</p>
     </div>
 </template>
 

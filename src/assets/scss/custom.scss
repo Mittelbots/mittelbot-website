@@ -20,6 +20,7 @@ $yellow-hover: #f1c40f;
 .btn {
     border: 0;
     padding: $spacer-2 $spacer-3;
+
     &:hover {
         color: $white !important;
         background-color: $secondary;

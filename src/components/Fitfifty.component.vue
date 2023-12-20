@@ -1,10 +1,9 @@
 <template>
-    <div class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5" v-if="textRight">
-         <ImageAtom
-            :image="image"
-            :imageAlt="imageAlt"
-            data-aos="fade-up"
-        />
+    <div
+        class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5"
+        v-if="textRight"
+    >
+        <ImageAtom :image="image" :imageAlt="imageAlt" data-aos="fade-up" />
         <TextAtom
             :headline="headline"
             :text="text"
@@ -15,9 +14,12 @@
             :textBlack="textBlack"
             :style="style"
             data-aos="fade-up"
-         />
+        />
     </div>
-    <div class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5" v-else>
+    <div
+        class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5"
+        v-else
+    >
         <TextAtom
             :headline="headline"
             :text="text"
@@ -29,11 +31,7 @@
             :style="style"
             data-aos="fade-up"
         />
-        <ImageAtom
-            :image="image"
-            :imageAlt="imageAlt"
-            data-aos="fade-up"
-        />
+        <ImageAtom :image="image" :imageAlt="imageAlt" data-aos="fade-up" />
     </div>
 </template>
 
@@ -50,6 +48,6 @@ export default {
         textRight: Boolean,
         textBlack: Boolean,
         style: Object,
-    }
-}
+    },
+};
 </script>

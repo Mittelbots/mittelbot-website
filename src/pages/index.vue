@@ -1,6 +1,6 @@
 <template>
     <NavComponent class="bg-primary" />
-    
+
     <FitfiftyComponent
         class="bg-primary"
         :headline="elements.first.headline"
@@ -13,10 +13,10 @@
         :textBlack="elements.first.textBlack"
         :style="elements.first.style"
     />
-    <img src="/img/elements/waves.svg" alt="line" class="waves line"/>
+    <img src="/img/elements/waves.svg" alt="line" class="waves line" />
 
     <h2 class="text-center my-3 fw-bolder" id="features">{{ lang.content.homepageHeadline }}</h2>
-    <hr class="lined" style="height: 2px;"/>
+    <hr class="lined" style="height: 2px" />
 
     <FitfiftyComponent
         :headline="elements.second.headline"
@@ -54,9 +54,12 @@
         :style="elements.fourth.style"
     />
 
-    <div class="d-flex justify-content-center align-items-center flex-column my-5" data-aos="fade-up">
+    <div
+        class="d-flex justify-content-center align-items-center flex-column my-5"
+        data-aos="fade-up"
+    >
         <h2 class="fw-bolder">{{ lang.content.readyText }}</h2>
-        <a class="btn btn-success my-3" :href="links.invite.path">{{lang.content.readyButton}}</a>
+        <a class="btn btn-success my-3" :href="links.invite.path">{{ lang.content.readyButton }}</a>
     </div>
 
     <FooterComponent />
@@ -72,7 +75,7 @@ export default {
             elements: lang.content.fifthyfifthy,
             lang,
             links,
-        }
+        };
     },
 };
 </script>

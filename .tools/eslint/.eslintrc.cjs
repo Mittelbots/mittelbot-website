@@ -21,7 +21,7 @@ module.exports = {
         semi: ['error', 'always'],
         quotes: ['error', 'single'],
         'consistent-return': 0,
-        indent: ['error', 4], // space indentation
+        indent: ['error', 4, { "SwitchCase": 1 }], // space indentation
         'no-else-return': 1,
         'no-undef': 0,
         'prettier/prettier': [

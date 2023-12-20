@@ -12,7 +12,7 @@
                 "text": "Create Projects and Tasks. Be prepared for deadlines with reminders and protect your server tasks from evils with curtain permissions Set-up Moderation, Leveling, welcome message or logs with an easy command struture.",
                 "image": "/img/schedule-planning.svg",
                 "imageAlt": "Schedule Planning",
-                "keyFacts": [ 
+                "keyFacts": [
                     {
                         "icon": "check.svg",
                         "text": "Moderation"
