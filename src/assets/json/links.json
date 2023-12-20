@@ -1,0 +1,14 @@
+{
+    "support": {
+        "path": "/support",
+        "target": "https://discord.gg/SjUKT4zkS5"
+    },
+    "github": {
+        "path": "/github",
+        "target": "https://github.com/Mittelbots/Mittelbot"
+    },
+    "invite": {
+        "path": "/invite",
+        "target": "https://discord.com/api/oauth2/authorize?client_id=918951367110971452&permissions=1513372511446&scope=bot%20applications.commands"
+    }
+}
