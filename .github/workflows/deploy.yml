@@ -11,7 +11,7 @@ jobs:
     runs-on: mittelbots
 
     steps:
-      - name: Node.js 20.04
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -26,4 +26,7 @@ jobs:
 
       - name: Build website
         run: npm run build
+
+      - name: Start website
+        run: pm2 start
 
