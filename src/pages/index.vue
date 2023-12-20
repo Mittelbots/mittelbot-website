@@ -54,7 +54,7 @@
         :style="elements.fourth.style"
     />
 
-    <div class="d-flex justify-content-center align-items-center flex-column my-5" style="height: 20vh;">
+    <div class="d-flex justify-content-center align-items-center flex-column my-5" data-aos="fade-up">
         <h2 class="fw-bolder">{{ lang.content.readyText }}</h2>
         <a class="btn btn-success my-3" :href="links.invite.path">{{lang.content.readyButton}}</a>
     </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5" v-if="textRight" :style="{height: style.height}">
+    <div class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5" v-if="textRight">
          <ImageAtom
             :image="image"
             :imageAlt="imageAlt"
@@ -17,7 +17,7 @@
             data-aos="fade-up"
          />
     </div>
-    <div class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5" v-else :style="{height: style.height}">
+    <div class="mb-fiftyfifty-container mt-6 row justify-content-center align-items-center me-0 p-5" v-else>
         <TextAtom
             :headline="headline"
             :text="text"

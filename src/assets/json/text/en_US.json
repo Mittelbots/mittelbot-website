@@ -14,19 +14,19 @@
                 "imageAlt": "Schedule Planning",
                 "keyFacts": [ 
                     {
-                        "icon": "check",
+                        "icon": "check.svg",
                         "text": "Moderation"
                     },
                     {
-                        "icon": "check",
+                        "icon": "check.svg",
                         "text": "Scamdetection"
                     },
                     {
-                        "icon": "check",
+                        "icon": "check.svg",
                         "text": "Welcome Message"
                     },
                     {
-                        "icon": "check",
+                        "icon": "check.svg",
                         "text": "Leveling"
                     }
                 ],
@@ -37,7 +37,6 @@
                 "textRight": false,
                 "textBlack": false,
                 "style": {
-                    "height": "40rem",
                     "buttonStyle": "btn-primary"
                 }
             },
@@ -54,7 +53,6 @@
                 "textRight": true,
                 "textBlack": true,
                 "style": {
-                    "height": "30rem",
                     "buttonStyle": "btn-success"
                 }
             },
@@ -65,19 +63,19 @@
                 "imageAlt": "Scamdetection",
                 "keyFacts": [
                     {
-                        "icon": "lock",
+                        "icon": "lock.svg",
                         "text": "10k+ known scam links"
                     },
                     {
-                        "icon": "lock",
+                        "icon": "lock.svg",
                         "text": "Easy & fast setup"
                     },
                     {
-                        "icon": "lock",
+                        "icon": "lock.svg",
                         "text": "Community scamlist"
                     },
                     {
-                        "icon": "lock",
+                        "icon": "lock.svg",
                         "text": "Auto-ban"
                     }
                 ],
@@ -88,7 +86,6 @@
                 "textRight": false,
                 "textBlack": true,
                 "style": {
-                    "height": "30rem",
                     "buttonStyle": "btn-danger"
                 }
             },
@@ -99,20 +96,20 @@
                 "imageAlt": "Leveling",
                 "keyFacts": [
                     {
-                        "icon": "lock",
-                        "text": "10k+ known scam links"
+                        "icon": "rank.png",
+                        "text": "3 different Leveling modes"
                     },
                     {
-                        "icon": "lock",
+                        "icon": "rank.png",
                         "text": "Easy & fast setup"
                     },
                     {
-                        "icon": "lock",
-                        "text": "Community scamlist"
+                        "icon": "rank.png",
+                        "text": "Manage XP"
                     },
                     {
-                        "icon": "lock",
-                        "text": "Auto-ban"
+                        "icon": "rank.png",
+                        "text": "<span class=\"fw-bold\">...and more!</span>"
                     }
                 ],
                 "button": {
@@ -122,7 +119,6 @@
                 "textRight": true,
                 "textBlack": true,
                 "style": {
-                    "height": "30rem",
                     "buttonStyle": "btn-warning"
                 }
             }
