@@ -1,6 +1,7 @@
 {
-  "name": "mittelblot-website",
+  "name": "mittelbot-website",
   "private": true,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "prebuild": "nuxi build",
