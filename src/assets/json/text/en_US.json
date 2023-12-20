@@ -1,0 +1,133 @@
+{
+    "name": "Mittelbot",
+    "navigation": {
+        "home": "Home",
+        "features": "Features",
+        "docs": "Documentation"
+    },
+    "content": {
+        "fifthyfifthy": {
+            "first": {
+                "headline": "Get your server on the next level",
+                "text": "Create Projects and Tasks. Be prepared for deadlines with reminders and protect your server tasks from evils with curtain permissions Set-up Moderation, Leveling, welcome message or logs with an easy command struture.",
+                "image": "/img/schedule-planning.svg",
+                "imageAlt": "Schedule Planning",
+                "keyFacts": [
+                    {
+                        "icon": "check.svg",
+                        "text": "Moderation"
+                    },
+                    {
+                        "icon": "check.svg",
+                        "text": "Scamdetection"
+                    },
+                    {
+                        "icon": "check.svg",
+                        "text": "Welcome Message"
+                    },
+                    {
+                        "icon": "check.svg",
+                        "text": "Leveling"
+                    }
+                ],
+                "button": {
+                    "text": "Get Started",
+                    "link": "/"
+                },
+                "textRight": false,
+                "textBlack": false,
+                "style": {
+                    "buttonStyle": "btn-primary"
+                }
+            },
+            "second": {
+                "headline": "<span class=\"purple\">Moderate your server on the next level</span>",
+                "text": "With features like ban, kick and mute you are well prepared for all rule breakers. One step further? Set-up warn roles to track your warnings.",
+                "image": "/img/features_overview.svg",
+                "imageAlt": "Moderation",
+                "keyFacts": [],
+                "button": {
+                    "text": "Say hello to friendly servers",
+                    "link": "/invite"
+                },
+                "textRight": true,
+                "textBlack": true,
+                "style": {
+                    "buttonStyle": "btn-success"
+                }
+            },
+            "third": {
+                "headline": "<span class=\"text-danger\">Scamdetection</span>",
+                "text": "Scam is bad. Unfortunately you can't escape it. But you can protect your server members from it. Set-up the scamdetection and your server is a safe place to talk. One link isn't on the list? No problem, add it to the offical community scamlist to help other servers to be also a wonderful place. ",
+                "image": "/img/product_literation.svg",
+                "imageAlt": "Scamdetection",
+                "keyFacts": [
+                    {
+                        "icon": "lock.svg",
+                        "text": "10k+ known scam links"
+                    },
+                    {
+                        "icon": "lock.svg",
+                        "text": "Easy & fast setup"
+                    },
+                    {
+                        "icon": "lock.svg",
+                        "text": "Community scamlist"
+                    },
+                    {
+                        "icon": "lock.svg",
+                        "text": "Auto-ban"
+                    }
+                ],
+                "button": {
+                    "text": "Say hello to friendly servers",
+                    "link": "/invite"
+                },
+                "textRight": false,
+                "textBlack": true,
+                "style": {
+                    "buttonStyle": "btn-danger"
+                }
+            },
+            "fourth": {
+                "headline": "<span class=\"text-warning\">Expanding with leveling</span>",
+                "text": "Reward your most active member with a higher level and some swaggy roles. Or would you like a more difficult challenge? Select out of 3 leveling modes to adjust the difficulty",
+                "image": "/img/feeling_happy.svg",
+                "imageAlt": "Leveling",
+                "keyFacts": [
+                    {
+                        "icon": "rank.png",
+                        "text": "3 different Leveling modes"
+                    },
+                    {
+                        "icon": "rank.png",
+                        "text": "Easy & fast setup"
+                    },
+                    {
+                        "icon": "rank.png",
+                        "text": "Manage XP"
+                    },
+                    {
+                        "icon": "rank.png",
+                        "text": "<span class=\"fw-bold\">...and more!</span>"
+                    }
+                ],
+                "button": {
+                    "text": "Say hello to friendly servers",
+                    "link": "/invite"
+                },
+                "textRight": true,
+                "textBlack": true,
+                "style": {
+                    "buttonStyle": "btn-warning"
+                }
+            }
+        },
+        "homepageHeadline": "Be prepared for everything",
+        "readyText": "Ready? Let's go!",
+        "readyButton": "Add Mittelbot to your server"
+    },
+    "footer": {
+        "copyrightHint": "Copyright Mittelblut9. All Rights Reserved."
+    }
+}

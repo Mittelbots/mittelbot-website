@@ -1,0 +1,53 @@
+$red-hover: #e74c3c;
+$green-hover: #2ecc71;
+$yellow-hover: #f1c40f;
+
+.lined {
+    border-top: 5px;
+    border-top-style: solid;
+    border-top-color: $purple;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    opacity: 1;
+}
+
+.purple {
+    color: $purple;
+}
+
+.btn {
+    border: 0;
+    padding: $spacer-2 $spacer-3;
+
+    &:hover {
+        color: $white !important;
+        background-color: $secondary;
+    }
+}
+
+.btn-primary {
+    background-color: $purple;
+}
+
+.btn-success {
+    &:hover {
+        color: $white !important;
+        background-color: $green-hover;
+    }
+}
+
+.btn-danger {
+    &:hover {
+        color: $white !important;
+        background-color: $red-hover;
+    }
+}
+
+.btn-warning {
+    &:hover {
+        color: $white !important;
+        background-color: $yellow-hover;
+    }
+}
