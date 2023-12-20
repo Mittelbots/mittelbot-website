@@ -12,6 +12,11 @@ $spacer-5: 3rem;
 $spacer-6: 4.5rem;
 $spacer-7: 6rem;
 
+$font-family-base: 'Poppins Regular', sans-serif;
+$font-family-heading: 'Poppins Bold', sans-serif;
+$font-family-light: 'Poppins Light', sans-serif;
+$font-family-black: 'Poppins Black', sans-serif;
+
 :root {
   --bs-primary: $primary;
   --bs-primary-rgb: 26, 37, 51;
@@ -21,6 +26,10 @@ $spacer-7: 6rem;
   --bs-white: $white;
   --bs-black: $black;
   --bs-heading-color: $black !important;
+}
+
+body {
+  font-family: $font-family-base !important;
 }
 
 a {
