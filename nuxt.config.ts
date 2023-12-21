@@ -1,11 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: false },
-  nitro: {
-    preset: "aws-lambda",
-    inlineDynamicImports: true,
-    serveStatic: true,
-  },
   srcDir: 'src',
   css: [
     '~/assets/scss/base.scss',
