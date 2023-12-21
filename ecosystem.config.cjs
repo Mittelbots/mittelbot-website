@@ -1,9 +1,11 @@
 module.exports = {
-    apps : [{
-        name      : 'Mittelbot Website',
-        exec_mode : 'cluster', 
-        cwd       : './current',
-        script    : "./node_modules/nuxt/bin/nuxt.js",
-        args      : "start",
-    }]
-};
+    apps: [
+      {
+        name: 'Mittelbot Website',
+        port: '3000',
+        exec_mode: 'cluster',
+        instances: 'max',
+        script: './.output/server/index.mjs'
+      }
+    ]
+  }
