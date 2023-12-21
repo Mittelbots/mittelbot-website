@@ -25,5 +25,8 @@ jobs:
         run: npm install
 
       - name: Build website
-        run: npm run generate
+        run: npm run build
+      
+      - name: Deploy website
+        run: pm2 start ecosystem.config.cjs
 
