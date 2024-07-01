@@ -22,7 +22,7 @@
     "stop": "docker compose down"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.24.1",
+    "@babel/eslint-parser": "^7.24.7",
     "@html-eslint/parser": "^0.24.0",
     "@nuxt/devtools": "latest",
     "@nuxt/typescript-build": "^3.0.2",
